@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+h1 {
+  color: #3F4048;
+  font-weight: normal;
+  font-family: 'Nunito', sans-serif;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+}
+
+.title{
+  color: #3F4048;
+}
+
+#describe{
+  font-weight: normal;
+  font-size: 16px;
+  color: #3F4048;
+  line-height: 30px
+}
+
+.containerLayout2 {
+  background: linear-gradient(0.25turn, #34128C, #132B9F);
+}
+
+#login{
+  margin-top: 18px;
+}
+
+.signupParent{
+  margin-top: 35px;
+}
+
+@media (min-width: 960px) {
+  .logo{
+    position: absolute;
+    top: 3%;
+    width: 10%;
+  }
+  .gridLayout1{
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .gridLayout2{
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .gridLayout1 .content {
+    width: 70%;
+  }
+
+  .button{
+    width: 15vh;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-top: 0%;
+    border-radius: 30px;
+    background-color: #FC6C5f;
+    color: white;
+    border: none;
+  }
+
+  .dFlexRow{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  .input{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.1px solid;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+  }
+
+  .gridLayout2 p, .gridLayout2 label {
+    color: white
+  }
+
+  label {
+    width: 100%
+  }
+
+  .signup:link, .signup:visited, .signup:hover, .signup:active  {
+    color: #FC6C5f;
+    text-decoration: none;
+  }
+
+  .forgot:link, .forgot:visited, .forgot:hover, .forgot:active  {
+    color: white;
+  }
+}
+
+@media (max-width: 959px) {
+
+.containerLayout2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerLayout1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridLayout1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridLayout1 .content{
+  margin-bottom: 30px;
+  margin-top: 30px
+}
+.gridLayout2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridLayout2 .content {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.gridLayout1 .content {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridLayout1 .title {
+  text-align: center;
+  color: #3F4048;
+}
+
+.button{
+  width: 15vh;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-top: 5%;
+  border-radius: 30px;
+  background-color: #FC6C5f;
+  color: white;
+  border: none;
+}
+
+.dFlexRow{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.input{
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 0.1px solid;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+}
+
+.gridLayout2 p, .gridLayout2 label {
+  color: white
+}
+
+label {
+  width: 100%
+}
+
+.signup:link, .signup:visited, .signup:hover, .signup:active  {
+  color: #FC6C5f;
+  text-decoration: none;
+}
+
+.forgot:link, .forgot:visited, .forgot:hover, .forgot:active  {
+  color: white;
+}
+
+#root, .globalContainer{
+  height: 100vh;
+}
+}
